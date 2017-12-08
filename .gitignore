@@ -21,3 +21,9 @@
 /yarn-error.log
 
 .byebug_history
+# IntellijIdea files
+*.iml
+.idea
+
+# Ignore uploaded test images.
+/public/uploads
