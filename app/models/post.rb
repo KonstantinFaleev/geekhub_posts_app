@@ -6,6 +6,8 @@ class Post < ApplicationRecord
   validates :content, presence: true, length: { maximum: 500 }
   validate  :picture_size
 
+  self.per_page = 20
+
   private
 
   # Validates the size of an uploaded picture.
